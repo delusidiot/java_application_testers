@@ -13,7 +13,8 @@ java application 테스터들을 연습한 프로젝트입니다.
 아래엔 블로그 링크와 참고한 강의 및 사이트 링크를 게시하겠습니다.
 
 ## JUnit5
-
+[JUnit5 소개](https://delusidiot.tistory.com/entry/JUnit5-%EC%86%8C%EA%B0%9C)
+[JUnit5 Assertions](https://delusidiot.tistory.com/entry/JUnit5-Assertions)
 ## Mockito
 
 ## 참고 링크
