@@ -4,7 +4,9 @@ import org.junit.jupiter.api.*;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
-@SpringBootTest
+@SpringBootTest(properties = {
+        "test.env=LOCAL"
+})
 class JavaApplicationTestApplicationTests {
 
     @Test
