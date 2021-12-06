@@ -1,9 +1,12 @@
-package me.delusidiot.java_application_test;
+package me.delusidiot.java_application_test.domain;
+
+import me.delusidiot.java_application_test.study.StudyStatus;
 
 public class Study {
     private StudyStatus status = StudyStatus.DRAFT;
     private String name;
     private int limit;
+    private Member owner;
 
     public Study() {
         this.limit = 0;
@@ -30,6 +33,14 @@ public class Study {
 
     public String getName() {
         return name;
+    }
+
+    public void setOwner(Member owner) {
+        this.owner = owner;
+    }
+
+    public Member getOwner() {
+        return owner;
     }
 
     @Override

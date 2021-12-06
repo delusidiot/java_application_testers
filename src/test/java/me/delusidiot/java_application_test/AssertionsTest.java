@@ -1,5 +1,7 @@
 package me.delusidiot.java_application_test;
 
+import me.delusidiot.java_application_test.domain.Study;
+import me.delusidiot.java_application_test.study.StudyStatus;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
